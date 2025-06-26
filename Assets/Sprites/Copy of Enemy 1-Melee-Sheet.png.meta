@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,7 +95,847 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 395
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3b2b0cc03369b4ca95326a828c3023
+      internalID: -383897598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 395
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9711ef7f98f22b41abb536e4232bbc1
+      internalID: 305412541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 396
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b222265c7f8f0c54aafb6d6181330895
+      internalID: 298311602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 396
+        width: 47
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773e1e86f9a572542b905730d5d37c70
+      internalID: 1940222563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 395
+        width: 45
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2396c18b87c689c47b698393ca03703d
+      internalID: 1895364597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 395
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1df2e718a9c67c45b3b6376c63377f9
+      internalID: -1437747382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 396
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb7c81f5cee29240b5af3e385ebc6ee
+      internalID: -157698353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 396
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f7fb7c7445dba45ab464f42bdfd625
+      internalID: -125622396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 328
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccae30eb35decb4f93a66606c1cc90d
+      internalID: 1225427216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 328
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c3fab1b093ccd40a1eb8c2d7290437
+      internalID: -307965132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 327
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec79f5add4442643a9f0cc14eb5cab4
+      internalID: -1812981452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 327
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a48df886c28934aaba3dcfedd6645c
+      internalID: 448854301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 267
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245661d53a9a98b44adc2669afa2ebbb
+      internalID: -711396361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 268
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522f6d02f2f41954fb4e35786e67d792
+      internalID: -1767073837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 268
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cf2ee99271c804ab58125f6016673d
+      internalID: -1843322034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 203
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52cf0758ccbb9b428e5d9901b42533e
+      internalID: 1135653397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 203
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5065638fb69b25b4b8b83f5dd5b71b8c
+      internalID: 65858760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 204
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0980b7d271646148a52f8dd83fab862
+      internalID: -1280609152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 204
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78182bae0200c84eb424e794e71cfd7
+      internalID: 311355374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 203
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72eb15a7ca5d8d149a86838b2dcefa86
+      internalID: 3256328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 203
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78d66a41286a324d879f3b8e19224b6
+      internalID: 2032040364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 204
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ce5e649ae604c4fab6141c7f0ba81e
+      internalID: -977273099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 204
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b2e8e7145e6ff428b495b9c451877b
+      internalID: -1774901489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 145
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98925c9fbe43fcf4d9d807f5f7d07334
+      internalID: 1233107488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 145
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7ad685e59926a4387b788556618577
+      internalID: 1445087742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 144
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44217de204a8ac547a83fed0cba25982
+      internalID: 492349211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 146
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dab394786ea0c8428b6fa6d4b700189
+      internalID: -1899282077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 142
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8277830bc4d3c164bad5af7be34a0d73
+      internalID: 260836845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 145
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb90aeb7652fa748b3e5fa9b4b1a16f
+      internalID: 757930217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 144
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9160558167a4ced44a2b907d0433fb5e
+      internalID: 105772887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 81
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d5eac38d864fe4ba350b6ba239a4c3
+      internalID: 1844256446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 81
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36efecd90b990624a847e776b1e11d52
+      internalID: -1259755434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 75
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6316fb9caec2264fb74689d27a62b78
+      internalID: -1017803766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 74
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61362416783eafa4ba963e49f1eddc25
+      internalID: 554606857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 72
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21385a16666b63f4cbc36680fb6cf8dc
+      internalID: -1321319521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 72
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11e214ef52aa734bacc08597b02157e
+      internalID: -2094306245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 72
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a3f85d07084214d8af4f78e55647cb
+      internalID: 209614363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 16
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874790fc5a43f8d468c38b558f3fadcb
+      internalID: 950453867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 17
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785ad4c80eed9f6418ff4474046579c3
+      internalID: -1498158298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Enemy 1-Melee-Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 16
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bdc8faf75a7b342b49f564469532b0
+      internalID: -291475223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +946,110 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Copy of Enemy 1-Melee-Sheet_0: -691564532
+      Copy of Enemy 1-Melee-Sheet_1: 1065811695
+      Copy of Enemy 1-Melee-Sheet_10: -383897598
+      Copy of Enemy 1-Melee-Sheet_100: -291475223
+      Copy of Enemy 1-Melee-Sheet_101: -1845696206
+      Copy of Enemy 1-Melee-Sheet_102: 2057056688
+      Copy of Enemy 1-Melee-Sheet_11: 305412541
+      Copy of Enemy 1-Melee-Sheet_12: 298311602
+      Copy of Enemy 1-Melee-Sheet_13: -1817844755
+      Copy of Enemy 1-Melee-Sheet_14: 1940222563
+      Copy of Enemy 1-Melee-Sheet_15: -1378043009
+      Copy of Enemy 1-Melee-Sheet_16: 1895364597
+      Copy of Enemy 1-Melee-Sheet_17: -1437747382
+      Copy of Enemy 1-Melee-Sheet_18: -157698353
+      Copy of Enemy 1-Melee-Sheet_19: -125622396
+      Copy of Enemy 1-Melee-Sheet_2: -817350510
+      Copy of Enemy 1-Melee-Sheet_20: -503819118
+      Copy of Enemy 1-Melee-Sheet_21: -359130570
+      Copy of Enemy 1-Melee-Sheet_22: -1274054845
+      Copy of Enemy 1-Melee-Sheet_23: 837135097
+      Copy of Enemy 1-Melee-Sheet_24: -1721901510
+      Copy of Enemy 1-Melee-Sheet_25: -1029010626
+      Copy of Enemy 1-Melee-Sheet_26: -528895705
+      Copy of Enemy 1-Melee-Sheet_27: 1225427216
+      Copy of Enemy 1-Melee-Sheet_28: -307965132
+      Copy of Enemy 1-Melee-Sheet_29: -1812981452
+      Copy of Enemy 1-Melee-Sheet_3: -944050380
+      Copy of Enemy 1-Melee-Sheet_30: 448854301
+      Copy of Enemy 1-Melee-Sheet_31: -584952837
+      Copy of Enemy 1-Melee-Sheet_32: -1767084387
+      Copy of Enemy 1-Melee-Sheet_33: -1277701024
+      Copy of Enemy 1-Melee-Sheet_34: -669407530
+      Copy of Enemy 1-Melee-Sheet_35: -1438228250
+      Copy of Enemy 1-Melee-Sheet_36: -515246901
+      Copy of Enemy 1-Melee-Sheet_37: -1280434502
+      Copy of Enemy 1-Melee-Sheet_38: 1296452097
+      Copy of Enemy 1-Melee-Sheet_39: -711396361
+      Copy of Enemy 1-Melee-Sheet_4: -519342510
+      Copy of Enemy 1-Melee-Sheet_40: -1767073837
+      Copy of Enemy 1-Melee-Sheet_41: -1843322034
+      Copy of Enemy 1-Melee-Sheet_42: -1726656847
+      Copy of Enemy 1-Melee-Sheet_43: 807315795
+      Copy of Enemy 1-Melee-Sheet_44: 1135653397
+      Copy of Enemy 1-Melee-Sheet_45: 65858760
+      Copy of Enemy 1-Melee-Sheet_46: -1280609152
+      Copy of Enemy 1-Melee-Sheet_47: 311355374
+      Copy of Enemy 1-Melee-Sheet_48: 3256328
+      Copy of Enemy 1-Melee-Sheet_49: 2032040364
+      Copy of Enemy 1-Melee-Sheet_5: -1786459297
+      Copy of Enemy 1-Melee-Sheet_50: -977273099
+      Copy of Enemy 1-Melee-Sheet_51: -1774901489
+      Copy of Enemy 1-Melee-Sheet_52: -23017841
+      Copy of Enemy 1-Melee-Sheet_53: -1077421708
+      Copy of Enemy 1-Melee-Sheet_54: 1840603300
+      Copy of Enemy 1-Melee-Sheet_55: -204328409
+      Copy of Enemy 1-Melee-Sheet_56: 690558075
+      Copy of Enemy 1-Melee-Sheet_57: 889693363
+      Copy of Enemy 1-Melee-Sheet_58: 2009895378
+      Copy of Enemy 1-Melee-Sheet_59: 1015276768
+      Copy of Enemy 1-Melee-Sheet_6: 2108714288
+      Copy of Enemy 1-Melee-Sheet_60: 791972776
+      Copy of Enemy 1-Melee-Sheet_61: 1233107488
+      Copy of Enemy 1-Melee-Sheet_62: 1445087742
+      Copy of Enemy 1-Melee-Sheet_63: 492349211
+      Copy of Enemy 1-Melee-Sheet_64: -1899282077
+      Copy of Enemy 1-Melee-Sheet_65: 260836845
+      Copy of Enemy 1-Melee-Sheet_66: 757930217
+      Copy of Enemy 1-Melee-Sheet_67: 105772887
+      Copy of Enemy 1-Melee-Sheet_68: 2100510390
+      Copy of Enemy 1-Melee-Sheet_69: -558993762
+      Copy of Enemy 1-Melee-Sheet_7: 1749138409
+      Copy of Enemy 1-Melee-Sheet_70: -346234091
+      Copy of Enemy 1-Melee-Sheet_71: 394886161
+      Copy of Enemy 1-Melee-Sheet_72: 1528642368
+      Copy of Enemy 1-Melee-Sheet_73: 1878164635
+      Copy of Enemy 1-Melee-Sheet_74: 349585270
+      Copy of Enemy 1-Melee-Sheet_75: 1844256446
+      Copy of Enemy 1-Melee-Sheet_76: -1259755434
+      Copy of Enemy 1-Melee-Sheet_77: -1017803766
+      Copy of Enemy 1-Melee-Sheet_78: 554606857
+      Copy of Enemy 1-Melee-Sheet_79: -1321319521
+      Copy of Enemy 1-Melee-Sheet_8: 1599043104
+      Copy of Enemy 1-Melee-Sheet_80: -2094306245
+      Copy of Enemy 1-Melee-Sheet_81: -2078205765
+      Copy of Enemy 1-Melee-Sheet_82: 673651990
+      Copy of Enemy 1-Melee-Sheet_83: 942942427
+      Copy of Enemy 1-Melee-Sheet_84: -196611095
+      Copy of Enemy 1-Melee-Sheet_85: 245836694
+      Copy of Enemy 1-Melee-Sheet_86: -322847399
+      Copy of Enemy 1-Melee-Sheet_87: 209614363
+      Copy of Enemy 1-Melee-Sheet_88: 1934950921
+      Copy of Enemy 1-Melee-Sheet_89: -1488136127
+      Copy of Enemy 1-Melee-Sheet_9: -535279749
+      Copy of Enemy 1-Melee-Sheet_90: -1161148662
+      Copy of Enemy 1-Melee-Sheet_91: 2022908036
+      Copy of Enemy 1-Melee-Sheet_92: 1365671023
+      Copy of Enemy 1-Melee-Sheet_93: 18676940
+      Copy of Enemy 1-Melee-Sheet_94: 1332410744
+      Copy of Enemy 1-Melee-Sheet_95: 1779074547
+      Copy of Enemy 1-Melee-Sheet_96: 950453867
+      Copy of Enemy 1-Melee-Sheet_97: 855632823
+      Copy of Enemy 1-Melee-Sheet_98: -1498158298
+      Copy of Enemy 1-Melee-Sheet_99: 708165798
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
