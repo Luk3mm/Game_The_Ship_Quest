@@ -57,7 +57,7 @@ public class Enemy : MonoBehaviour
                 {
                     currentState = EnemyState.idle;
                     rig.velocity = Vector2.zero;
-                    anim.SetTrigger("idle");
+                    anim.SetBool("follow", false);
                 }
                 break;
         }
@@ -95,7 +95,7 @@ public class Enemy : MonoBehaviour
         if (playerInArea)
         {
             currentState = EnemyState.follow;
-            anim.SetTrigger("follow");
+            anim.SetBool("follow", true);
         }
 
         isPreparing = false;
@@ -104,6 +104,6 @@ public class Enemy : MonoBehaviour
     private void BackToInitialPosition()
     {
         currentState = EnemyState.back;
-        anim.SetTrigger("idle");
+        anim.SetBool("follow", false);
     }
 }
