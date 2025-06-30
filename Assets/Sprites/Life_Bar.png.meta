@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,7 +95,742 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Life_Bar_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 306
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c70d9d01386af4b9cfa0d8cf66135a
+      internalID: -81344077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_7
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 290
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4f2272bb9c9db4898facb1e3f9e47b
+      internalID: 1223452489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 258
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d676b7bdd1d313447bccfbfe90a42dfa
+      internalID: 1311348638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_9
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 258
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1c080de6b32e640983ac9bca262497
+      internalID: 1449372148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_10
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 258
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3120881dd217e4881dea58fa07716a
+      internalID: -1516155717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_11
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 258
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973e658129c09d2409bbab68e937b5c9
+      internalID: -642486271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 226
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6111215341f7c43a9f67a5de64baeb
+      internalID: -1080301786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_13
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 226
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb78b1f469a411e4680023767c0bdf1e
+      internalID: -1140788551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_14
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 226
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92226372ada104418ffdc4bf76e9ecc
+      internalID: 1881865204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_15
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 226
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0c3cec2991f0447924a738e8df518a
+      internalID: -221797343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 210
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09819c19d2f509e4990e05572f3a9e70
+      internalID: -845251662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_22
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 178
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364f0327c846dbf44b60346c77e6b223
+      internalID: -235446392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_23
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 178
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7ec021adf3b0e4ea56bad772924bf0
+      internalID: 85668055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_24
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 178
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600d1a6736db4064b828eb04542ef178
+      internalID: -693491937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_25
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 178
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46a8f21a325b9447bb95983d328abc5
+      internalID: -1917644227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_32
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 130
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cd0253461f1bf47aeb84fec4fcf538
+      internalID: 1062638479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_33
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 130
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74e23ca3e3434a4e908601e28969608
+      internalID: 593357393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_34
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 130
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0961d80732a2b4e86c88b89d0df61a
+      internalID: 657774179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 115
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42be4a2a12da0b43935f97fc91460ce
+      internalID: -1380608027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_36
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 115
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1162b98ba7d13374ea58b171900654ce
+      internalID: -511471016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_37
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 115
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783597240f7d76d45a339050d3e87276
+      internalID: -908888257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_38
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 115
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39c215d113d8e5428fa23ac65721217
+      internalID: -1054023086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_39
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 115
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f15737989c5d864f97554798d3d0b33
+      internalID: -2004302221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_40
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 82
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68e102622c27b44c8c6816f39c65fa8
+      internalID: 2103682610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_41
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 82
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160c39acfd6fef541ac413ebf98feca9
+      internalID: -237315664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_42
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 82
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d22a9760c430cf4786bb7b446977ac8
+      internalID: -177585930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_43
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 82
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9008d4507033f4449bdcbef0403fae9c
+      internalID: -2002650157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_44
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 50
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c736a6df8106745a67acdb6e4e45eb
+      internalID: 1631898142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_45
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 50
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52d84be4fffe5447b557c5c524b6127
+      internalID: 82861817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_46
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 50
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9cb8d35734b6b4dbfd8844df1858e0
+      internalID: 1176750979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_47
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 35
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a68db9b685f11d42961d8c1d8c98cfa
+      internalID: 270431788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_48
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 35
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d728f1207a8e70642acbbf8d4b219ad3
+      internalID: -1372205248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_49
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 35
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e19c412f31248f42936ad8249bdb1ed
+      internalID: 1166984278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_50
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 35
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d26833059143d24bb7cdb6f343bfd14
+      internalID: -1994950976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life_Bar_51
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697a397f48637ca4eb55f94f778cc0f9
+      internalID: 2073911691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +841,59 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Life_Bar_0: 2143589088
+      Life_Bar_1: 911929423
+      Life_Bar_10: -1516155717
+      Life_Bar_11: -642486271
+      Life_Bar_12: -1080301786
+      Life_Bar_13: -1140788551
+      Life_Bar_14: 1881865204
+      Life_Bar_15: -221797343
+      Life_Bar_16: -845251662
+      Life_Bar_17: 1993392756
+      Life_Bar_18: 825859980
+      Life_Bar_19: 1374746889
+      Life_Bar_2: 60893638
+      Life_Bar_20: 1999630364
+      Life_Bar_21: -780721319
+      Life_Bar_22: -235446392
+      Life_Bar_23: 85668055
+      Life_Bar_24: -693491937
+      Life_Bar_25: -1917644227
+      Life_Bar_26: 1482298801
+      Life_Bar_27: -1558040182
+      Life_Bar_28: -503470879
+      Life_Bar_29: 520191646
+      Life_Bar_3: 1060454990
+      Life_Bar_30: -1633799487
+      Life_Bar_31: 235041288
+      Life_Bar_32: 1062638479
+      Life_Bar_33: 593357393
+      Life_Bar_34: 657774179
+      Life_Bar_35: -1380608027
+      Life_Bar_36: -511471016
+      Life_Bar_37: -908888257
+      Life_Bar_38: -1054023086
+      Life_Bar_39: -2004302221
+      Life_Bar_4: 831979644
+      Life_Bar_40: 2103682610
+      Life_Bar_41: -237315664
+      Life_Bar_42: -177585930
+      Life_Bar_43: -2002650157
+      Life_Bar_44: 1631898142
+      Life_Bar_45: 82861817
+      Life_Bar_46: 1176750979
+      Life_Bar_47: 270431788
+      Life_Bar_48: -1372205248
+      Life_Bar_49: 1166984278
+      Life_Bar_5: -81344077
+      Life_Bar_50: -1994950976
+      Life_Bar_51: 2073911691
+      Life_Bar_6: 1726514811
+      Life_Bar_7: 1223452489
+      Life_Bar_8: 1311348638
+      Life_Bar_9: 1449372148
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
