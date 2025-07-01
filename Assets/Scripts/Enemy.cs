@@ -24,12 +24,14 @@ public class Enemy : MonoBehaviour
     private bool playerInArea = false;
     private bool isPreparing = false;
     private EnemyState currentState = EnemyState.idle;
+    private EnemyDamage enemyDamage;
 
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
         rig = GetComponent<Rigidbody2D>();
+        enemyDamage = GetComponent<EnemyDamage>();
         currentState = EnemyState.idle;
         anim.SetTrigger("idle");
     }
@@ -37,6 +39,11 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (enemyDamage.isDead)
+        {
+            return;
+        }
+
         switch (currentState)
         {
             case EnemyState.follow:

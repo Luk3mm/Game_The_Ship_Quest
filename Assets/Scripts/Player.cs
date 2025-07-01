@@ -6,6 +6,15 @@ public class Player : MonoBehaviour
 {
     public float speed;
 
+    [Header("Projectile Settings")]
+    public GameObject projectilePrefab;
+    public Transform shootUp;
+    public Transform shootDown;
+    public Transform shootLeft;
+    public Transform shootRight;
+    public float cooldownTime;
+    private float lastShootTime = -Mathf.Infinity;
+
     private bool isWalk = false;
 
     private Rigidbody2D rig;
@@ -53,9 +62,35 @@ public class Player : MonoBehaviour
 
     private void Attack()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && Time.time >= lastShootTime + cooldownTime)
         {
+            lastShootTime = Time.time;
+
             anim.SetTrigger("attack");
+
+            Vector2 dir = lastDirection;
+            Transform shootPoint = shootDown;
+
+            if(dir == Vector2.up)
+            {
+                shootPoint = shootUp;
+            }
+            else if(dir == Vector2.down)
+            {
+                shootPoint = shootDown;
+            }
+            else if(dir == Vector2.left)
+            {
+                shootPoint = shootLeft;
+            }
+            else if(dir == Vector2.right)
+            {
+                shootPoint = shootRight;
+            }
+
+            GameObject newProjectile = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
+            Projectile proj = newProjectile.GetComponent<Projectile>();
+            proj.Initialize(dir);
         }
     }
 }
