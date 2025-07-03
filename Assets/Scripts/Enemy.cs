@@ -113,4 +113,9 @@ public class Enemy : MonoBehaviour
         currentState = EnemyState.back;
         anim.SetBool("follow", false);
     }
+
+    public string CurrentState()
+    {
+        return currentState.ToString();
+    }
 }
