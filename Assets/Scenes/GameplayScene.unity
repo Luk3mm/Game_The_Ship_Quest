@@ -25766,6 +25766,7 @@ GameObject:
   - component: {fileID: 563319436}
   - component: {fileID: 563319437}
   - component: {fileID: 563319438}
+  - component: {fileID: 563319439}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -25947,6 +25948,21 @@ MonoBehaviour:
   shootLeft: {fileID: 1180647519}
   shootRight: {fileID: 2141355293}
   cooldownTime: 1
+--- !u!114 &563319439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563319432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9b11485db487cb4c8ebf06c5291ffcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxLife: 100
+  currentlife: 0
+  lifeBar: {fileID: 942736426}
 --- !u!1 &650970680
 GameObject:
   m_ObjectHideFlags: 0
@@ -55951,6 +55967,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxLife: 4
   isDead: 0
+  durationHurt: 0.3
 --- !u!1 &1477355294
 GameObject:
   m_ObjectHideFlags: 0

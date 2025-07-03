@@ -10,11 +10,20 @@ public class EnemyDamage : MonoBehaviour
     private Animator anim;
     public bool isDead = false;
 
+    [Header("Feedback Damage Settings")]
+    public float durationHurt;
+
+    private SpriteRenderer spriteRenderer;
+    private Color colorHurt = Color.red;
+    private Color originalColor;
+
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         currentLife = maxLife;
+        originalColor = spriteRenderer.color;
     }
 
     // Update is called once per frame
@@ -31,6 +40,7 @@ public class EnemyDamage : MonoBehaviour
         }
 
         currentLife -= damage;
+        StartCoroutine(HurtFeedback());
 
         if(currentLife <= 0)
         {
@@ -44,5 +54,12 @@ public class EnemyDamage : MonoBehaviour
         anim.SetTrigger("death");
 
         Destroy(gameObject, 1.2f);
+    }
+
+    IEnumerator HurtFeedback()
+    {
+        spriteRenderer.color = colorHurt;
+        yield return new WaitForSeconds(durationHurt);
+        spriteRenderer.color = originalColor;
     }
 }
